@@ -13,7 +13,7 @@ const getData=async(text)=>{
     try {
         let url="https://rickandmortyapi.com/api/character/?page=1"
         if(text){
-           url=`https://rickandmortyapi.com/api/character/?name=${text}&page=1`
+           url=`https://rickandmortyapi.com/api/character/?name=${text}&page=2`
         }
         let res=await fetch(url);
         
@@ -35,14 +35,14 @@ setData([])
 {
     Data.map((e)=>
     <div key={e.id} className="display_flex display_table">
-        <div className="display_flex">
+        <div className="display_flex start">
             <div className="display_image">
                 <img src={e.image} alt="" />
             </div>
             <p>{e.name}</p>
         </div>
-        <div className="display_flex">
-            <div className="display_status"></div>
+        <div className="display_flex end">
+            <div className={(e.status&&e.species=="Humanoid")||(e.status=="Alive")?"display_status_green":"display_status_grey"}></div>
             <p>{e.status} - {e.species}</p>
         </div>
     </div>
