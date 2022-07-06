@@ -1,0 +1,38 @@
+.search_input{
+    width: 30%;
+    height:2.5rem;
+    background-color: white;
+    margin-bottom: 1rem;
+}
+
+.display_image img{
+    height: 1.5rem;
+    /* width: 10%; */
+    border-radius: 50%;
+}
+.display_flex{
+    display: flex;
+/* border: 2px solid black; */
+width: 50%;
+align-items: center;
+margin-left: 1rem;
+}
+.display_table{
+    text-align: center;
+  justify-content: center;
+    margin: auto;
+    width: 30%;
+    height:3.5rem;
+    background-color: white;
+    margin-bottom: .5rem;
+    justify-content: space-between;
+}
+.display_status{
+    height: .5rem;
+    width: .5rem;
+    border-radius:50% ;
+    background-color: aqua;
+}
+p{
+    margin: 0 2px 5px;
+}
