@@ -56,3 +56,53 @@ p{
     font-size: 80%;
     font-weight: bold;
 }
+
+/*************   user Card   **********************/
+
+
+.userCard_text{
+    margin: 0 0 1rem;
+     
+}
+
+.userCard_title{
+    color: #9A9CA0;
+}
+
+/* .searchIcon {
+    height: 60px;
+    width: 50px;
+    background-color: white;
+    display: grid;
+    place-items: center;
+  } */
+
+  .search {
+   display: flex;
+   width: 30%;
+   background-color: white;
+   margin: 1.5rem auto;
+   padding: 2px 0;
+   align-items: center;
+   
+
+}
+  /* .searchInputs {
+   mar
+  } */
+  
+
+  
+  .searchIcon {
+
+ margin-left: 1rem;
+ margin-right: 1rem;
+  } 
+  
+  input{
+    border: none;
+    outline: none;
+    height: 4rem;
+    width: 80%;
+  }
+
